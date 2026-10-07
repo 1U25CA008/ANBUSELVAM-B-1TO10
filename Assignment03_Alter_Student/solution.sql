@@ -1,2 +1,8 @@
-ALTER table Student add (email varchar(30),phonenumber int(10));
-desc Student;
+USE CollegeDB;
+ALTER TABLE Student
+ADD (
+    Email VARCHAR(30),
+    PhoneNumber INT(10)
+);
+
+DESC Student;
