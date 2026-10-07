@@ -1,4 +1,8 @@
-create table Student(StudentID int(5) primary key,StudentName 
-varchar(20) NOT NULL,DOB  DATE UNIQUE,Gender varchar(10) 
-NOT NULL,DepartmentID int(5));
-desc Student;
+USE CollegeDB;
+CREATE TABLE Student(
+StudentID INT(5) PRIMARY KEY ,
+StudentName VARCHAR(20) NOT NULL,
+DOB DATE UNIQUE,
+Gender VARCHAR(10) NOT NULL,
+DepartmentID INT(5));
+DESC Student;
