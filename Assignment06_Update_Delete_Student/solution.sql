@@ -1,3 +1,8 @@
-UPDATE std6 SET departmentID=103 WHERE 
-studentName="Karthik";
-delete from std6 WHERE studentID=1002;
+USE CollegeDB;
+
+UPDATE Student
+SET DepartmentID = 103
+WHERE StudentName = 'Karthik';
+
+DELETE FROM Student
+WHERE StudentID = 1002;
